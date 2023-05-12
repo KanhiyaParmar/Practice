@@ -1,0 +1,17 @@
+io.flutter.plugins.firebase.auth.firebase_auth-browser-1.4.0-0 /Users/techjockey/.gradle/caches/transforms-3/20303346e7946ceb674ee16ccbb5fd36/transformed/browser-1.4.0/res
+io.flutter.plugins.firebase.auth.firebase_auth-jetified-window-java-1.0.0-beta04-1 /Users/techjockey/.gradle/caches/transforms-3/7b01004f26d6d571b728035c19407ae3/transformed/jetified-window-java-1.0.0-beta04/res
+io.flutter.plugins.firebase.auth.firebase_auth-jetified-annotation-experimental-1.1.0-2 /Users/techjockey/.gradle/caches/transforms-3/982ea5c22553340fd3997b2ee1194629/transformed/jetified-annotation-experimental-1.1.0/res
+io.flutter.plugins.firebase.auth.firebase_auth-jetified-window-1.0.0-beta04-3 /Users/techjockey/.gradle/caches/transforms-3/9852a3d7595c62aaa53e25a017cda8f6/transformed/jetified-window-1.0.0-beta04/res
+io.flutter.plugins.firebase.auth.firebase_auth-core-1.6.0-4 /Users/techjockey/.gradle/caches/transforms-3/a594a1824a593f45cb63725f0fabe61f/transformed/core-1.6.0/res
+io.flutter.plugins.firebase.auth.firebase_auth-jetified-play-services-base-17.1.0-5 /Users/techjockey/.gradle/caches/transforms-3/bdaa9d1cef4a6be9f7e92be45769f4d6/transformed/jetified-play-services-base-17.1.0/res
+io.flutter.plugins.firebase.auth.firebase_auth-jetified-play-services-basement-18.1.0-6 /Users/techjockey/.gradle/caches/transforms-3/c88c07bc7bbe36adc64e07e245d28312/transformed/jetified-play-services-basement-18.1.0/res
+io.flutter.plugins.firebase.auth.firebase_auth-jetified-firebase-common-20.3.2-7 /Users/techjockey/.gradle/caches/transforms-3/ce0e56bffdc79f1c0b01566b56f56390/transformed/jetified-firebase-common-20.3.2/res
+io.flutter.plugins.firebase.auth.firebase_auth-main-8 /Users/techjockey/.pub-cache/hosted/pub.dev/firebase_auth-4.5.0/android/src/main/res
+io.flutter.plugins.firebase.auth.firebase_auth-release-9 /Users/techjockey/.pub-cache/hosted/pub.dev/firebase_auth-4.5.0/android/src/release/res
+io.flutter.plugins.firebase.auth.firebase_auth-pngs-10 /Users/techjockey/elredtask/build/firebase_auth/generated/res/pngs/release
+io.flutter.plugins.firebase.auth.firebase_auth-resValues-11 /Users/techjockey/elredtask/build/firebase_auth/generated/res/resValues/release
+io.flutter.plugins.firebase.auth.firebase_auth-rs-12 /Users/techjockey/elredtask/build/firebase_auth/generated/res/rs/release
+io.flutter.plugins.firebase.auth.firebase_auth-mergeReleaseResources-13 /Users/techjockey/elredtask/build/firebase_auth/intermediates/incremental/release/mergeReleaseResources/merged.dir
+io.flutter.plugins.firebase.auth.firebase_auth-mergeReleaseResources-14 /Users/techjockey/elredtask/build/firebase_auth/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+io.flutter.plugins.firebase.auth.firebase_auth-merged_res-15 /Users/techjockey/elredtask/build/firebase_auth/intermediates/merged_res/release
+io.flutter.plugins.firebase.auth.firebase_auth-packaged_res-16 /Users/techjockey/elredtask/build/firebase_core/intermediates/packaged_res/release

@@ -1,0 +1,15 @@
+io.flutter.plugins.googlesignin.google_sign_in_android-jetified-play-services-basement-18.2.0-0 /Users/techjockey/.gradle/caches/transforms-3/338f44e1343992a5773bef940ff27314/transformed/jetified-play-services-basement-18.2.0/res
+io.flutter.plugins.googlesignin.google_sign_in_android-jetified-play-services-base-18.0.1-1 /Users/techjockey/.gradle/caches/transforms-3/68af408add69f392d6f8c4f6a81b1bbf/transformed/jetified-play-services-base-18.0.1/res
+io.flutter.plugins.googlesignin.google_sign_in_android-jetified-play-services-auth-20.5.0-2 /Users/techjockey/.gradle/caches/transforms-3/6ec2455131b87f1e5da8f8ceb6168071/transformed/jetified-play-services-auth-20.5.0/res
+io.flutter.plugins.googlesignin.google_sign_in_android-jetified-window-java-1.0.0-beta04-3 /Users/techjockey/.gradle/caches/transforms-3/7b01004f26d6d571b728035c19407ae3/transformed/jetified-window-java-1.0.0-beta04/res
+io.flutter.plugins.googlesignin.google_sign_in_android-jetified-annotation-experimental-1.1.0-4 /Users/techjockey/.gradle/caches/transforms-3/982ea5c22553340fd3997b2ee1194629/transformed/jetified-annotation-experimental-1.1.0/res
+io.flutter.plugins.googlesignin.google_sign_in_android-jetified-window-1.0.0-beta04-5 /Users/techjockey/.gradle/caches/transforms-3/9852a3d7595c62aaa53e25a017cda8f6/transformed/jetified-window-1.0.0-beta04/res
+io.flutter.plugins.googlesignin.google_sign_in_android-core-1.6.0-6 /Users/techjockey/.gradle/caches/transforms-3/a594a1824a593f45cb63725f0fabe61f/transformed/core-1.6.0/res
+io.flutter.plugins.googlesignin.google_sign_in_android-main-7 /Users/techjockey/.pub-cache/hosted/pub.dev/google_sign_in_android-6.1.14/android/src/main/res
+io.flutter.plugins.googlesignin.google_sign_in_android-release-8 /Users/techjockey/.pub-cache/hosted/pub.dev/google_sign_in_android-6.1.14/android/src/release/res
+io.flutter.plugins.googlesignin.google_sign_in_android-pngs-9 /Users/techjockey/elredtask/build/google_sign_in_android/generated/res/pngs/release
+io.flutter.plugins.googlesignin.google_sign_in_android-resValues-10 /Users/techjockey/elredtask/build/google_sign_in_android/generated/res/resValues/release
+io.flutter.plugins.googlesignin.google_sign_in_android-rs-11 /Users/techjockey/elredtask/build/google_sign_in_android/generated/res/rs/release
+io.flutter.plugins.googlesignin.google_sign_in_android-mergeReleaseResources-12 /Users/techjockey/elredtask/build/google_sign_in_android/intermediates/incremental/release/mergeReleaseResources/merged.dir
+io.flutter.plugins.googlesignin.google_sign_in_android-mergeReleaseResources-13 /Users/techjockey/elredtask/build/google_sign_in_android/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+io.flutter.plugins.googlesignin.google_sign_in_android-merged_res-14 /Users/techjockey/elredtask/build/google_sign_in_android/intermediates/merged_res/release

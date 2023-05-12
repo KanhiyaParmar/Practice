@@ -1,0 +1,596 @@
+-- Merging decision tree log ---
+application
+INJECTED from /Users/techjockey/elredtask/android/app/src/main/AndroidManifest.xml:3:4-33:19
+MERGED from [:firebase_auth] /Users/techjockey/elredtask/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_auth] /Users/techjockey/elredtask/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
+MERGED from [:cloud_firestore] /Users/techjockey/elredtask/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
+MERGED from [:cloud_firestore] /Users/techjockey/elredtask/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_core] /Users/techjockey/elredtask/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_core] /Users/techjockey/elredtask/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-auth:21.3.0] /Users/techjockey/.gradle/caches/transforms-3/7a4bbdeefe2096494030a71efa16a0e7/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-auth:21.3.0] /Users/techjockey/.gradle/caches/transforms-3/7a4bbdeefe2096494030a71efa16a0e7/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.android.recaptcha:recaptcha:18.0.1] /Users/techjockey/.gradle/caches/transforms-3/8b98d1b993c73f4a458e09e72a676f48/transformed/jetified-recaptcha-18.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.recaptcha:recaptcha:18.0.1] /Users/techjockey/.gradle/caches/transforms-3/8b98d1b993c73f4a458e09e72a676f48/transformed/jetified-recaptcha-18.0.1/AndroidManifest.xml:7:5-20
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/techjockey/.gradle/caches/transforms-3/9852a3d7595c62aaa53e25a017cda8f6/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/techjockey/.gradle/caches/transforms-3/9852a3d7595c62aaa53e25a017cda8f6/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [com.google.android.gms:play-services-auth:20.5.0] /Users/techjockey/.gradle/caches/transforms-3/6ec2455131b87f1e5da8f8ceb6168071/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:20.5.0] /Users/techjockey/.gradle/caches/transforms-3/6ec2455131b87f1e5da8f8ceb6168071/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.firebase:firebase-firestore:24.5.0] /Users/techjockey/.gradle/caches/transforms-3/5e341e2160b9aeeba223e079aa4e71dd/transformed/jetified-firebase-firestore-24.5.0/AndroidManifest.xml:15:5-23:19
+MERGED from [com.google.firebase:firebase-firestore:24.5.0] /Users/techjockey/.gradle/caches/transforms-3/5e341e2160b9aeeba223e079aa4e71dd/transformed/jetified-firebase-firestore-24.5.0/AndroidManifest.xml:15:5-23:19
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/techjockey/.gradle/caches/transforms-3/a1f69a0a22c2fb83d7c17bbc98de7aba/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/techjockey/.gradle/caches/transforms-3/a1f69a0a22c2fb83d7c17bbc98de7aba/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] /Users/techjockey/.gradle/caches/transforms-3/ba129cf8b9bb965b2548bdf4a14de88d/transformed/jetified-play-services-fido-20.0.1/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] /Users/techjockey/.gradle/caches/transforms-3/ba129cf8b9bb965b2548bdf4a14de88d/transformed/jetified-play-services-fido-20.0.1/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.1] /Users/techjockey/.gradle/caches/transforms-3/c86f7c54b0f03e5a7aab56d256bd1ceb/transformed/jetified-firebase-appcheck-interop-16.1.1/AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.1] /Users/techjockey/.gradle/caches/transforms-3/c86f7c54b0f03e5a7aab56d256bd1ceb/transformed/jetified-firebase-appcheck-interop-16.1.1/AndroidManifest.xml:23:5-20
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/techjockey/.gradle/caches/transforms-3/68af408add69f392d6f8c4f6a81b1bbf/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/techjockey/.gradle/caches/transforms-3/68af408add69f392d6f8c4f6a81b1bbf/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.firebase:firebase-perf:20.3.1] /Users/techjockey/.gradle/caches/transforms-3/3d8db53872c05fa87c9897799b190fd0/transformed/jetified-firebase-perf-20.3.1/AndroidManifest.xml:12:5-20:19
+MERGED from [com.google.firebase:firebase-perf:20.3.1] /Users/techjockey/.gradle/caches/transforms-3/3d8db53872c05fa87c9897799b190fd0/transformed/jetified-firebase-perf-20.3.1/AndroidManifest.xml:12:5-20:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/techjockey/.gradle/caches/transforms-3/452bda521965f2327a371a88e28abec4/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:23:5-31:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/techjockey/.gradle/caches/transforms-3/452bda521965f2327a371a88e28abec4/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:23:5-31:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/techjockey/.gradle/caches/transforms-3/4c014d03a521c2afe312944516464e12/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/techjockey/.gradle/caches/transforms-3/4c014d03a521c2afe312944516464e12/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/techjockey/.gradle/caches/transforms-3/5328b838e85d4003c5b3b6d91bea51d9/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/techjockey/.gradle/caches/transforms-3/5328b838e85d4003c5b3b6d91bea51d9/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.firebase:firebase-config:21.3.0] /Users/techjockey/.gradle/caches/transforms-3/5c2045dc725a9c697f80749e4d50bef1/transformed/jetified-firebase-config-21.3.0/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.firebase:firebase-config:21.3.0] /Users/techjockey/.gradle/caches/transforms-3/5c2045dc725a9c697f80749e4d50bef1/transformed/jetified-firebase-config-21.3.0/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.firebase:firebase-installations:17.1.3] /Users/techjockey/.gradle/caches/transforms-3/b4ea3e16fc39f98e8c0927da278f9a78/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.firebase:firebase-installations:17.1.3] /Users/techjockey/.gradle/caches/transforms-3/b4ea3e16fc39f98e8c0927da278f9a78/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/techjockey/.gradle/caches/transforms-3/3621439c2002ca0175ed7a8e0a67fb9f/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/techjockey/.gradle/caches/transforms-3/3621439c2002ca0175ed7a8e0a67fb9f/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-abt:21.1.1] /Users/techjockey/.gradle/caches/transforms-3/f674aecb50a7209555b22c64fd8c25ab/transformed/jetified-firebase-abt-21.1.1/AndroidManifest.xml:10:5-16:19
+MERGED from [com.google.firebase:firebase-abt:21.1.1] /Users/techjockey/.gradle/caches/transforms-3/f674aecb50a7209555b22c64fd8c25ab/transformed/jetified-firebase-abt-21.1.1/AndroidManifest.xml:10:5-16:19
+MERGED from [com.google.firebase:firebase-common:20.3.2] /Users/techjockey/.gradle/caches/transforms-3/ce0e56bffdc79f1c0b01566b56f56390/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.firebase:firebase-common:20.3.2] /Users/techjockey/.gradle/caches/transforms-3/ce0e56bffdc79f1c0b01566b56f56390/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.android.play:integrity:1.0.1] /Users/techjockey/.gradle/caches/transforms-3/a9fbaee7fa5a57b1500a5dd33c8424b7/transformed/jetified-integrity-1.0.1/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.play:integrity:1.0.1] /Users/techjockey/.gradle/caches/transforms-3/a9fbaee7fa5a57b1500a5dd33c8424b7/transformed/jetified-integrity-1.0.1/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/techjockey/.gradle/caches/transforms-3/583650d3ddcbe4326278c9c3f7fbb6db/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/techjockey/.gradle/caches/transforms-3/583650d3ddcbe4326278c9c3f7fbb6db/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/techjockey/.gradle/caches/transforms-3/d5d2a75e40cd248ce4dcddb18254a354/transformed/jetified-firebase-measurement-connector-18.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/techjockey/.gradle/caches/transforms-3/d5d2a75e40cd248ce4dcddb18254a354/transformed/jetified-firebase-measurement-connector-18.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/techjockey/.gradle/caches/transforms-3/338f44e1343992a5773bef940ff27314/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/techjockey/.gradle/caches/transforms-3/338f44e1343992a5773bef940ff27314/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.core:core:1.6.0] /Users/techjockey/.gradle/caches/transforms-3/a594a1824a593f45cb63725f0fabe61f/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] /Users/techjockey/.gradle/caches/transforms-3/a594a1824a593f45cb63725f0fabe61f/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.3.1] /Users/techjockey/.gradle/caches/transforms-3/1800e172fa2872b3790c6dbfee1f4575/transformed/jetified-lifecycle-process-2.3.1/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.3.1] /Users/techjockey/.gradle/caches/transforms-3/1800e172fa2872b3790c6dbfee1f4575/transformed/jetified-lifecycle-process-2.3.1/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/techjockey/.gradle/caches/transforms-3/50af1d4417ff62489a2bc2f2805ead8c/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/techjockey/.gradle/caches/transforms-3/50af1d4417ff62489a2bc2f2805ead8c/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.6.0] /Users/techjockey/.gradle/caches/transforms-3/a594a1824a593f45cb63725f0fabe61f/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /Users/techjockey/elredtask/android/app/src/main/AndroidManifest.xml:4:9-34
+	android:icon
+		ADDED from /Users/techjockey/elredtask/android/app/src/main/AndroidManifest.xml:6:9-43
+	android:name
+		INJECTED from /Users/techjockey/elredtask/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/techjockey/elredtask/android/app/src/main/AndroidManifest.xml:5:9-42
+manifest
+ADDED from /Users/techjockey/elredtask/android/app/src/main/AndroidManifest.xml:1:1-34:12
+INJECTED from /Users/techjockey/elredtask/android/app/src/main/AndroidManifest.xml:1:1-34:12
+INJECTED from /Users/techjockey/elredtask/android/app/src/main/AndroidManifest.xml:1:1-34:12
+INJECTED from /Users/techjockey/elredtask/android/app/src/main/AndroidManifest.xml:1:1-34:12
+MERGED from [:shared_preferences_android] /Users/techjockey/elredtask/build/shared_preferences_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:firebase_auth] /Users/techjockey/elredtask/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-17:12
+MERGED from [:cloud_firestore] /Users/techjockey/elredtask/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-17:12
+MERGED from [:firebase_core] /Users/techjockey/elredtask/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-17:12
+MERGED from [:google_sign_in_android] /Users/techjockey/elredtask/build/google_sign_in_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-auth:21.3.0] /Users/techjockey/.gradle/caches/transforms-3/7a4bbdeefe2096494030a71efa16a0e7/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:17:1-75:12
+MERGED from [com.google.android.recaptcha:recaptcha:18.0.1] /Users/techjockey/.gradle/caches/transforms-3/8b98d1b993c73f4a458e09e72a676f48/transformed/jetified-recaptcha-18.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/techjockey/.gradle/caches/transforms-3/7b01004f26d6d571b728035c19407ae3/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/techjockey/.gradle/caches/transforms-3/9852a3d7595c62aaa53e25a017cda8f6/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
+MERGED from [com.google.android.gms:play-services-auth:20.5.0] /Users/techjockey/.gradle/caches/transforms-3/6ec2455131b87f1e5da8f8ceb6168071/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-firestore:24.5.0] /Users/techjockey/.gradle/caches/transforms-3/5e341e2160b9aeeba223e079aa4e71dd/transformed/jetified-firebase-firestore-24.5.0/AndroidManifest.xml:2:1-25:12
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/techjockey/.gradle/caches/transforms-3/a1f69a0a22c2fb83d7c17bbc98de7aba/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /Users/techjockey/.gradle/caches/transforms-3/43613ca9a6fae9d3b6f6e3f556664290/transformed/jetified-play-services-auth-api-phone-18.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /Users/techjockey/.gradle/caches/transforms-3/fcf24a92d6cf540602f22fb11046ba6a/transformed/jetified-play-services-auth-base-18.0.4/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] /Users/techjockey/.gradle/caches/transforms-3/ba129cf8b9bb965b2548bdf4a14de88d/transformed/jetified-play-services-fido-20.0.1/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/techjockey/.gradle/caches/transforms-3/1f393201476f3afd87f3f4b5e05f1055/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.1] /Users/techjockey/.gradle/caches/transforms-3/c86f7c54b0f03e5a7aab56d256bd1ceb/transformed/jetified-firebase-appcheck-interop-16.1.1/AndroidManifest.xml:15:1-25:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/techjockey/.gradle/caches/transforms-3/68af408add69f392d6f8c4f6a81b1bbf/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.firebase:firebase-perf:20.3.1] /Users/techjockey/.gradle/caches/transforms-3/3d8db53872c05fa87c9897799b190fd0/transformed/jetified-firebase-perf-20.3.1/AndroidManifest.xml:3:1-22:12
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/techjockey/.gradle/caches/transforms-3/452bda521965f2327a371a88e28abec4/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:15:1-33:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/techjockey/.gradle/caches/transforms-3/4c014d03a521c2afe312944516464e12/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:15:1-37:12
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/techjockey/.gradle/caches/transforms-3/5328b838e85d4003c5b3b6d91bea51d9/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/techjockey/.gradle/caches/transforms-3/e42d02cdf4249eb30e3a6979fa0a205e/transformed/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-config:21.3.0] /Users/techjockey/.gradle/caches/transforms-3/5c2045dc725a9c697f80749e4d50bef1/transformed/jetified-firebase-config-21.3.0/AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-installations:17.1.3] /Users/techjockey/.gradle/caches/transforms-3/b4ea3e16fc39f98e8c0927da278f9a78/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:2:1-23:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/techjockey/.gradle/caches/transforms-3/3621439c2002ca0175ed7a8e0a67fb9f/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-abt:21.1.1] /Users/techjockey/.gradle/caches/transforms-3/f674aecb50a7209555b22c64fd8c25ab/transformed/jetified-firebase-abt-21.1.1/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.firebase:firebase-common:20.3.2] /Users/techjockey/.gradle/caches/transforms-3/ce0e56bffdc79f1c0b01566b56f56390/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:15:1-39:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/techjockey/.gradle/caches/transforms-3/03ab62d045615dc5617d06fffea5a9ba/transformed/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/techjockey/.gradle/caches/transforms-3/d1d94ab6fadd3dd9ba2c94c3bb8bd4f4/transformed/jetified-transport-api-3.0.0/AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.firebase:firebase-components:17.1.0] /Users/techjockey/.gradle/caches/transforms-3/bf8ccacd547fd9f0c0b572918bb6b89d/transformed/jetified-firebase-components-17.1.0/AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.0] /Users/techjockey/.gradle/caches/transforms-3/86a99227d3b9a85ec7fca2a5dab157dc/transformed/jetified-firebase-installations-interop-17.1.0/AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.android.play:integrity:1.0.1] /Users/techjockey/.gradle/caches/transforms-3/a9fbaee7fa5a57b1500a5dd33c8424b7/transformed/jetified-integrity-1.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/techjockey/.gradle/caches/transforms-3/583650d3ddcbe4326278c9c3f7fbb6db/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/techjockey/.gradle/caches/transforms-3/d5d2a75e40cd248ce4dcddb18254a354/transformed/jetified-firebase-measurement-connector-18.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/techjockey/.gradle/caches/transforms-3/338f44e1343992a5773bef940ff27314/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/techjockey/.gradle/caches/transforms-3/f5a832662bb5566cd4c33a8b6c27257a/transformed/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/techjockey/.gradle/caches/transforms-3/3cf9f5f728b7121bbca541c8903cb64a/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.4.0] /Users/techjockey/.gradle/caches/transforms-3/20303346e7946ceb674ee16ccbb5fd36/transformed/browser-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/techjockey/.gradle/caches/transforms-3/4cda1a90ea034e6989118844d4871871/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/techjockey/.gradle/caches/transforms-3/7ac1bdf26167ccff002e553a97b52d32/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/techjockey/.gradle/caches/transforms-3/7442fe88bbcb32d7a73149ff08ba770e/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/techjockey/.gradle/caches/transforms-3/6f3008cbafae45401c87ce2c9e519469/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/techjockey/.gradle/caches/transforms-3/3d0cd3447d7776f33671a7d8beae3cbb/transformed/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/techjockey/.gradle/caches/transforms-3/f0793be328960a0c0243d8801f635cac/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/techjockey/.gradle/caches/transforms-3/d79755359531326f08fb6deeb15ce8c8/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/techjockey/.gradle/caches/transforms-3/0a3c2dcea3e2e2fb725b88b6945eeba4/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.6.0] /Users/techjockey/.gradle/caches/transforms-3/a594a1824a593f45cb63725f0fabe61f/transformed/core-1.6.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/techjockey/.gradle/caches/transforms-3/5fb06c7b800a5eee73a6800790efa976/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/techjockey/.gradle/caches/transforms-3/cdeeed5b8274ae8cddc44d51b604d68e/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.3.1] /Users/techjockey/.gradle/caches/transforms-3/1800e172fa2872b3790c6dbfee1f4575/transformed/jetified-lifecycle-process-2.3.1/AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/techjockey/.gradle/caches/transforms-3/0bbe280fd5306d2488e2ece3a7fb938f/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/techjockey/.gradle/caches/transforms-3/50af1d4417ff62489a2bc2f2805ead8c/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/techjockey/.gradle/caches/transforms-3/de90a4197a103c465ac4940ff69a5312/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/techjockey/.gradle/caches/transforms-3/2910daa18009db908b0a26e062c016ab/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/techjockey/.gradle/caches/transforms-3/ba897c13f6afe519857a67c7c7d579ba/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/techjockey/.gradle/caches/transforms-3/3698e996fb17227dc888575484f5501a/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/techjockey/.gradle/caches/transforms-3/8dbfc9cbff0bde3be85c48237118f518/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/techjockey/.gradle/caches/transforms-3/8fc933944cdeb6907afbbea55578a1ec/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [io.grpc:grpc-android:1.52.1] /Users/techjockey/.gradle/caches/transforms-3/c955631cac91425589a4fe4c7a78e9bb/transformed/jetified-grpc-android-1.52.1/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/techjockey/.gradle/caches/transforms-3/b36140c3431149dfd2a09b85ca887240/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/techjockey/.gradle/caches/transforms-3/982ea5c22553340fd3997b2ee1194629/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/techjockey/elredtask/android/app/src/main/AndroidManifest.xml:1:1-34:12
+INJECTED from /Users/techjockey/elredtask/android/app/src/main/AndroidManifest.xml:1:1-34:12
+INJECTED from /Users/techjockey/elredtask/android/app/src/main/AndroidManifest.xml:1:1-34:12
+	package
+		ADDED from /Users/techjockey/elredtask/android/app/src/main/AndroidManifest.xml:2:5-36
+		INJECTED from /Users/techjockey/elredtask/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/techjockey/elredtask/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/techjockey/elredtask/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/techjockey/elredtask/android/app/src/main/AndroidManifest.xml:1:1-34:12
+		INJECTED from /Users/techjockey/elredtask/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/techjockey/elredtask/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/techjockey/elredtask/android/app/src/main/AndroidManifest.xml:1:1-34:12
+		INJECTED from /Users/techjockey/elredtask/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/techjockey/elredtask/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-sdk
+INJECTED from /Users/techjockey/elredtask/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/techjockey/elredtask/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/techjockey/elredtask/android/app/src/main/AndroidManifest.xml
+MERGED from [:shared_preferences_android] /Users/techjockey/elredtask/build/shared_preferences_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:shared_preferences_android] /Users/techjockey/elredtask/build/shared_preferences_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_auth] /Users/techjockey/elredtask/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_auth] /Users/techjockey/elredtask/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:cloud_firestore] /Users/techjockey/elredtask/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:cloud_firestore] /Users/techjockey/elredtask/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_core] /Users/techjockey/elredtask/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_core] /Users/techjockey/elredtask/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:google_sign_in_android] /Users/techjockey/elredtask/build/google_sign_in_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:google_sign_in_android] /Users/techjockey/elredtask/build/google_sign_in_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-auth:21.3.0] /Users/techjockey/.gradle/caches/transforms-3/7a4bbdeefe2096494030a71efa16a0e7/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:21:5-23:64
+MERGED from [com.google.firebase:firebase-auth:21.3.0] /Users/techjockey/.gradle/caches/transforms-3/7a4bbdeefe2096494030a71efa16a0e7/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:21:5-23:64
+MERGED from [com.google.android.recaptcha:recaptcha:18.0.1] /Users/techjockey/.gradle/caches/transforms-3/8b98d1b993c73f4a458e09e72a676f48/transformed/jetified-recaptcha-18.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.0.1] /Users/techjockey/.gradle/caches/transforms-3/8b98d1b993c73f4a458e09e72a676f48/transformed/jetified-recaptcha-18.0.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/techjockey/.gradle/caches/transforms-3/7b01004f26d6d571b728035c19407ae3/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/techjockey/.gradle/caches/transforms-3/7b01004f26d6d571b728035c19407ae3/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/techjockey/.gradle/caches/transforms-3/9852a3d7595c62aaa53e25a017cda8f6/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/techjockey/.gradle/caches/transforms-3/9852a3d7595c62aaa53e25a017cda8f6/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-auth:20.5.0] /Users/techjockey/.gradle/caches/transforms-3/6ec2455131b87f1e5da8f8ceb6168071/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.5.0] /Users/techjockey/.gradle/caches/transforms-3/6ec2455131b87f1e5da8f8ceb6168071/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-firestore:24.5.0] /Users/techjockey/.gradle/caches/transforms-3/5e341e2160b9aeeba223e079aa4e71dd/transformed/jetified-firebase-firestore-24.5.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-firestore:24.5.0] /Users/techjockey/.gradle/caches/transforms-3/5e341e2160b9aeeba223e079aa4e71dd/transformed/jetified-firebase-firestore-24.5.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/techjockey/.gradle/caches/transforms-3/a1f69a0a22c2fb83d7c17bbc98de7aba/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/techjockey/.gradle/caches/transforms-3/a1f69a0a22c2fb83d7c17bbc98de7aba/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /Users/techjockey/.gradle/caches/transforms-3/43613ca9a6fae9d3b6f6e3f556664290/transformed/jetified-play-services-auth-api-phone-18.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /Users/techjockey/.gradle/caches/transforms-3/43613ca9a6fae9d3b6f6e3f556664290/transformed/jetified-play-services-auth-api-phone-18.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /Users/techjockey/.gradle/caches/transforms-3/fcf24a92d6cf540602f22fb11046ba6a/transformed/jetified-play-services-auth-base-18.0.4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /Users/techjockey/.gradle/caches/transforms-3/fcf24a92d6cf540602f22fb11046ba6a/transformed/jetified-play-services-auth-base-18.0.4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] /Users/techjockey/.gradle/caches/transforms-3/ba129cf8b9bb965b2548bdf4a14de88d/transformed/jetified-play-services-fido-20.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] /Users/techjockey/.gradle/caches/transforms-3/ba129cf8b9bb965b2548bdf4a14de88d/transformed/jetified-play-services-fido-20.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/techjockey/.gradle/caches/transforms-3/1f393201476f3afd87f3f4b5e05f1055/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/techjockey/.gradle/caches/transforms-3/1f393201476f3afd87f3f4b5e05f1055/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.1] /Users/techjockey/.gradle/caches/transforms-3/c86f7c54b0f03e5a7aab56d256bd1ceb/transformed/jetified-firebase-appcheck-interop-16.1.1/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.1] /Users/techjockey/.gradle/caches/transforms-3/c86f7c54b0f03e5a7aab56d256bd1ceb/transformed/jetified-firebase-appcheck-interop-16.1.1/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/techjockey/.gradle/caches/transforms-3/68af408add69f392d6f8c4f6a81b1bbf/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/techjockey/.gradle/caches/transforms-3/68af408add69f392d6f8c4f6a81b1bbf/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-perf:20.3.1] /Users/techjockey/.gradle/caches/transforms-3/3d8db53872c05fa87c9897799b190fd0/transformed/jetified-firebase-perf-20.3.1/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-perf:20.3.1] /Users/techjockey/.gradle/caches/transforms-3/3d8db53872c05fa87c9897799b190fd0/transformed/jetified-firebase-perf-20.3.1/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/techjockey/.gradle/caches/transforms-3/452bda521965f2327a371a88e28abec4/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/techjockey/.gradle/caches/transforms-3/452bda521965f2327a371a88e28abec4/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/techjockey/.gradle/caches/transforms-3/4c014d03a521c2afe312944516464e12/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/techjockey/.gradle/caches/transforms-3/4c014d03a521c2afe312944516464e12/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/techjockey/.gradle/caches/transforms-3/5328b838e85d4003c5b3b6d91bea51d9/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/techjockey/.gradle/caches/transforms-3/5328b838e85d4003c5b3b6d91bea51d9/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/techjockey/.gradle/caches/transforms-3/e42d02cdf4249eb30e3a6979fa0a205e/transformed/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/techjockey/.gradle/caches/transforms-3/e42d02cdf4249eb30e3a6979fa0a205e/transformed/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-config:21.3.0] /Users/techjockey/.gradle/caches/transforms-3/5c2045dc725a9c697f80749e4d50bef1/transformed/jetified-firebase-config-21.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-config:21.3.0] /Users/techjockey/.gradle/caches/transforms-3/5c2045dc725a9c697f80749e4d50bef1/transformed/jetified-firebase-config-21.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-installations:17.1.3] /Users/techjockey/.gradle/caches/transforms-3/b4ea3e16fc39f98e8c0927da278f9a78/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-installations:17.1.3] /Users/techjockey/.gradle/caches/transforms-3/b4ea3e16fc39f98e8c0927da278f9a78/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/techjockey/.gradle/caches/transforms-3/3621439c2002ca0175ed7a8e0a67fb9f/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/techjockey/.gradle/caches/transforms-3/3621439c2002ca0175ed7a8e0a67fb9f/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-abt:21.1.1] /Users/techjockey/.gradle/caches/transforms-3/f674aecb50a7209555b22c64fd8c25ab/transformed/jetified-firebase-abt-21.1.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-abt:21.1.1] /Users/techjockey/.gradle/caches/transforms-3/f674aecb50a7209555b22c64fd8c25ab/transformed/jetified-firebase-abt-21.1.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:20.3.2] /Users/techjockey/.gradle/caches/transforms-3/ce0e56bffdc79f1c0b01566b56f56390/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-common:20.3.2] /Users/techjockey/.gradle/caches/transforms-3/ce0e56bffdc79f1c0b01566b56f56390/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/techjockey/.gradle/caches/transforms-3/03ab62d045615dc5617d06fffea5a9ba/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/techjockey/.gradle/caches/transforms-3/03ab62d045615dc5617d06fffea5a9ba/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/techjockey/.gradle/caches/transforms-3/d1d94ab6fadd3dd9ba2c94c3bb8bd4f4/transformed/jetified-transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/techjockey/.gradle/caches/transforms-3/d1d94ab6fadd3dd9ba2c94c3bb8bd4f4/transformed/jetified-transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:17.1.0] /Users/techjockey/.gradle/caches/transforms-3/bf8ccacd547fd9f0c0b572918bb6b89d/transformed/jetified-firebase-components-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:17.1.0] /Users/techjockey/.gradle/caches/transforms-3/bf8ccacd547fd9f0c0b572918bb6b89d/transformed/jetified-firebase-components-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.0] /Users/techjockey/.gradle/caches/transforms-3/86a99227d3b9a85ec7fca2a5dab157dc/transformed/jetified-firebase-installations-interop-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.0] /Users/techjockey/.gradle/caches/transforms-3/86a99227d3b9a85ec7fca2a5dab157dc/transformed/jetified-firebase-installations-interop-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.play:integrity:1.0.1] /Users/techjockey/.gradle/caches/transforms-3/a9fbaee7fa5a57b1500a5dd33c8424b7/transformed/jetified-integrity-1.0.1/AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.play:integrity:1.0.1] /Users/techjockey/.gradle/caches/transforms-3/a9fbaee7fa5a57b1500a5dd33c8424b7/transformed/jetified-integrity-1.0.1/AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/techjockey/.gradle/caches/transforms-3/583650d3ddcbe4326278c9c3f7fbb6db/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/techjockey/.gradle/caches/transforms-3/583650d3ddcbe4326278c9c3f7fbb6db/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/techjockey/.gradle/caches/transforms-3/d5d2a75e40cd248ce4dcddb18254a354/transformed/jetified-firebase-measurement-connector-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/techjockey/.gradle/caches/transforms-3/d5d2a75e40cd248ce4dcddb18254a354/transformed/jetified-firebase-measurement-connector-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/techjockey/.gradle/caches/transforms-3/338f44e1343992a5773bef940ff27314/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/techjockey/.gradle/caches/transforms-3/338f44e1343992a5773bef940ff27314/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/techjockey/.gradle/caches/transforms-3/f5a832662bb5566cd4c33a8b6c27257a/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/techjockey/.gradle/caches/transforms-3/f5a832662bb5566cd4c33a8b6c27257a/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/techjockey/.gradle/caches/transforms-3/3cf9f5f728b7121bbca541c8903cb64a/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/techjockey/.gradle/caches/transforms-3/3cf9f5f728b7121bbca541c8903cb64a/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /Users/techjockey/.gradle/caches/transforms-3/20303346e7946ceb674ee16ccbb5fd36/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /Users/techjockey/.gradle/caches/transforms-3/20303346e7946ceb674ee16ccbb5fd36/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] /Users/techjockey/.gradle/caches/transforms-3/4cda1a90ea034e6989118844d4871871/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/techjockey/.gradle/caches/transforms-3/4cda1a90ea034e6989118844d4871871/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/techjockey/.gradle/caches/transforms-3/7ac1bdf26167ccff002e553a97b52d32/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/techjockey/.gradle/caches/transforms-3/7ac1bdf26167ccff002e553a97b52d32/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/techjockey/.gradle/caches/transforms-3/7442fe88bbcb32d7a73149ff08ba770e/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/techjockey/.gradle/caches/transforms-3/7442fe88bbcb32d7a73149ff08ba770e/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/techjockey/.gradle/caches/transforms-3/6f3008cbafae45401c87ce2c9e519469/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/techjockey/.gradle/caches/transforms-3/6f3008cbafae45401c87ce2c9e519469/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/techjockey/.gradle/caches/transforms-3/3d0cd3447d7776f33671a7d8beae3cbb/transformed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/techjockey/.gradle/caches/transforms-3/3d0cd3447d7776f33671a7d8beae3cbb/transformed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/techjockey/.gradle/caches/transforms-3/f0793be328960a0c0243d8801f635cac/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/techjockey/.gradle/caches/transforms-3/f0793be328960a0c0243d8801f635cac/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/techjockey/.gradle/caches/transforms-3/d79755359531326f08fb6deeb15ce8c8/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/techjockey/.gradle/caches/transforms-3/d79755359531326f08fb6deeb15ce8c8/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/techjockey/.gradle/caches/transforms-3/0a3c2dcea3e2e2fb725b88b6945eeba4/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/techjockey/.gradle/caches/transforms-3/0a3c2dcea3e2e2fb725b88b6945eeba4/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.6.0] /Users/techjockey/.gradle/caches/transforms-3/a594a1824a593f45cb63725f0fabe61f/transformed/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] /Users/techjockey/.gradle/caches/transforms-3/a594a1824a593f45cb63725f0fabe61f/transformed/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/techjockey/.gradle/caches/transforms-3/5fb06c7b800a5eee73a6800790efa976/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/techjockey/.gradle/caches/transforms-3/5fb06c7b800a5eee73a6800790efa976/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/techjockey/.gradle/caches/transforms-3/cdeeed5b8274ae8cddc44d51b604d68e/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/techjockey/.gradle/caches/transforms-3/cdeeed5b8274ae8cddc44d51b604d68e/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.3.1] /Users/techjockey/.gradle/caches/transforms-3/1800e172fa2872b3790c6dbfee1f4575/transformed/jetified-lifecycle-process-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.3.1] /Users/techjockey/.gradle/caches/transforms-3/1800e172fa2872b3790c6dbfee1f4575/transformed/jetified-lifecycle-process-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/techjockey/.gradle/caches/transforms-3/0bbe280fd5306d2488e2ece3a7fb938f/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/techjockey/.gradle/caches/transforms-3/0bbe280fd5306d2488e2ece3a7fb938f/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/techjockey/.gradle/caches/transforms-3/50af1d4417ff62489a2bc2f2805ead8c/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/techjockey/.gradle/caches/transforms-3/50af1d4417ff62489a2bc2f2805ead8c/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/techjockey/.gradle/caches/transforms-3/de90a4197a103c465ac4940ff69a5312/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/techjockey/.gradle/caches/transforms-3/de90a4197a103c465ac4940ff69a5312/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/techjockey/.gradle/caches/transforms-3/2910daa18009db908b0a26e062c016ab/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/techjockey/.gradle/caches/transforms-3/2910daa18009db908b0a26e062c016ab/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/techjockey/.gradle/caches/transforms-3/ba897c13f6afe519857a67c7c7d579ba/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/techjockey/.gradle/caches/transforms-3/ba897c13f6afe519857a67c7c7d579ba/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/techjockey/.gradle/caches/transforms-3/3698e996fb17227dc888575484f5501a/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/techjockey/.gradle/caches/transforms-3/3698e996fb17227dc888575484f5501a/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/techjockey/.gradle/caches/transforms-3/8dbfc9cbff0bde3be85c48237118f518/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/techjockey/.gradle/caches/transforms-3/8dbfc9cbff0bde3be85c48237118f518/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/techjockey/.gradle/caches/transforms-3/8fc933944cdeb6907afbbea55578a1ec/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/techjockey/.gradle/caches/transforms-3/8fc933944cdeb6907afbbea55578a1ec/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [io.grpc:grpc-android:1.52.1] /Users/techjockey/.gradle/caches/transforms-3/c955631cac91425589a4fe4c7a78e9bb/transformed/jetified-grpc-android-1.52.1/AndroidManifest.xml:5:5-7:41
+MERGED from [io.grpc:grpc-android:1.52.1] /Users/techjockey/.gradle/caches/transforms-3/c955631cac91425589a4fe4c7a78e9bb/transformed/jetified-grpc-android-1.52.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/techjockey/.gradle/caches/transforms-3/b36140c3431149dfd2a09b85ca887240/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/techjockey/.gradle/caches/transforms-3/b36140c3431149dfd2a09b85ca887240/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/techjockey/.gradle/caches/transforms-3/982ea5c22553340fd3997b2ee1194629/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/techjockey/.gradle/caches/transforms-3/982ea5c22553340fd3997b2ee1194629/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/techjockey/elredtask/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/techjockey/elredtask/android/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.google.firebase:firebase-auth:21.3.0] /Users/techjockey/.gradle/caches/transforms-3/7a4bbdeefe2096494030a71efa16a0e7/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:23:9-61
+	android:targetSdkVersion
+		INJECTED from /Users/techjockey/elredtask/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/techjockey/elredtask/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/techjockey/elredtask/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/techjockey/elredtask/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/techjockey/elredtask/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/techjockey/elredtask/android/app/src/main/AndroidManifest.xml
+activity#com.example.elredtask.MainActivity
+ADDED from /Users/techjockey/elredtask/android/app/src/main/AndroidManifest.xml:7:9-27:20
+	android:launchMode
+		ADDED from /Users/techjockey/elredtask/android/app/src/main/AndroidManifest.xml:10:13-43
+	android:hardwareAccelerated
+		ADDED from /Users/techjockey/elredtask/android/app/src/main/AndroidManifest.xml:13:13-47
+	android:windowSoftInputMode
+		ADDED from /Users/techjockey/elredtask/android/app/src/main/AndroidManifest.xml:14:13-55
+	android:exported
+		ADDED from /Users/techjockey/elredtask/android/app/src/main/AndroidManifest.xml:9:13-36
+	android:configChanges
+		ADDED from /Users/techjockey/elredtask/android/app/src/main/AndroidManifest.xml:12:13-163
+	android:theme
+		ADDED from /Users/techjockey/elredtask/android/app/src/main/AndroidManifest.xml:11:13-47
+	android:name
+		ADDED from /Users/techjockey/elredtask/android/app/src/main/AndroidManifest.xml:8:13-41
+meta-data#io.flutter.embedding.android.NormalTheme
+ADDED from /Users/techjockey/elredtask/android/app/src/main/AndroidManifest.xml:19:13-22:17
+	android:resource
+		ADDED from /Users/techjockey/elredtask/android/app/src/main/AndroidManifest.xml:21:15-52
+	android:name
+		ADDED from /Users/techjockey/elredtask/android/app/src/main/AndroidManifest.xml:20:15-70
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/techjockey/elredtask/android/app/src/main/AndroidManifest.xml:23:13-26:29
+action#android.intent.action.MAIN
+ADDED from /Users/techjockey/elredtask/android/app/src/main/AndroidManifest.xml:24:17-68
+	android:name
+		ADDED from /Users/techjockey/elredtask/android/app/src/main/AndroidManifest.xml:24:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/techjockey/elredtask/android/app/src/main/AndroidManifest.xml:25:17-76
+	android:name
+		ADDED from /Users/techjockey/elredtask/android/app/src/main/AndroidManifest.xml:25:27-74
+meta-data#flutterEmbedding
+ADDED from /Users/techjockey/elredtask/android/app/src/main/AndroidManifest.xml:30:9-32:33
+	android:value
+		ADDED from /Users/techjockey/elredtask/android/app/src/main/AndroidManifest.xml:32:13-30
+	android:name
+		ADDED from /Users/techjockey/elredtask/android/app/src/main/AndroidManifest.xml:31:13-44
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:firebase_auth] /Users/techjockey/elredtask/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
+MERGED from [:cloud_firestore] /Users/techjockey/elredtask/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
+MERGED from [:cloud_firestore] /Users/techjockey/elredtask/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_core] /Users/techjockey/elredtask/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_core] /Users/techjockey/elredtask/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
+MERGED from [com.google.firebase:firebase-auth:21.3.0] /Users/techjockey/.gradle/caches/transforms-3/7a4bbdeefe2096494030a71efa16a0e7/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-auth:21.3.0] /Users/techjockey/.gradle/caches/transforms-3/7a4bbdeefe2096494030a71efa16a0e7/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-firestore:24.5.0] /Users/techjockey/.gradle/caches/transforms-3/5e341e2160b9aeeba223e079aa4e71dd/transformed/jetified-firebase-firestore-24.5.0/AndroidManifest.xml:16:9-22:19
+MERGED from [com.google.firebase:firebase-firestore:24.5.0] /Users/techjockey/.gradle/caches/transforms-3/5e341e2160b9aeeba223e079aa4e71dd/transformed/jetified-firebase-firestore-24.5.0/AndroidManifest.xml:16:9-22:19
+MERGED from [com.google.firebase:firebase-perf:20.3.1] /Users/techjockey/.gradle/caches/transforms-3/3d8db53872c05fa87c9897799b190fd0/transformed/jetified-firebase-perf-20.3.1/AndroidManifest.xml:13:9-19:19
+MERGED from [com.google.firebase:firebase-perf:20.3.1] /Users/techjockey/.gradle/caches/transforms-3/3d8db53872c05fa87c9897799b190fd0/transformed/jetified-firebase-perf-20.3.1/AndroidManifest.xml:13:9-19:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/techjockey/.gradle/caches/transforms-3/452bda521965f2327a371a88e28abec4/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:24:9-30:19
+MERGED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/techjockey/.gradle/caches/transforms-3/452bda521965f2327a371a88e28abec4/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:24:9-30:19
+MERGED from [com.google.firebase:firebase-config:21.3.0] /Users/techjockey/.gradle/caches/transforms-3/5c2045dc725a9c697f80749e4d50bef1/transformed/jetified-firebase-config-21.3.0/AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.firebase:firebase-config:21.3.0] /Users/techjockey/.gradle/caches/transforms-3/5c2045dc725a9c697f80749e4d50bef1/transformed/jetified-firebase-config-21.3.0/AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.firebase:firebase-installations:17.1.3] /Users/techjockey/.gradle/caches/transforms-3/b4ea3e16fc39f98e8c0927da278f9a78/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:14:9-20:19
+MERGED from [com.google.firebase:firebase-installations:17.1.3] /Users/techjockey/.gradle/caches/transforms-3/b4ea3e16fc39f98e8c0927da278f9a78/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:14:9-20:19
+MERGED from [com.google.firebase:firebase-abt:21.1.1] /Users/techjockey/.gradle/caches/transforms-3/f674aecb50a7209555b22c64fd8c25ab/transformed/jetified-firebase-abt-21.1.1/AndroidManifest.xml:11:9-15:19
+MERGED from [com.google.firebase:firebase-abt:21.1.1] /Users/techjockey/.gradle/caches/transforms-3/f674aecb50a7209555b22c64fd8c25ab/transformed/jetified-firebase-abt-21.1.1/AndroidManifest.xml:11:9-15:19
+MERGED from [com.google.firebase:firebase-common:20.3.2] /Users/techjockey/.gradle/caches/transforms-3/ce0e56bffdc79f1c0b01566b56f56390/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:20.3.2] /Users/techjockey/.gradle/caches/transforms-3/ce0e56bffdc79f1c0b01566b56f56390/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:32:9-36:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.3.0] /Users/techjockey/.gradle/caches/transforms-3/7a4bbdeefe2096494030a71efa16a0e7/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:68:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.3.2] /Users/techjockey/.gradle/caches/transforms-3/ce0e56bffdc79f1c0b01566b56f56390/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.3.2] /Users/techjockey/.gradle/caches/transforms-3/ce0e56bffdc79f1c0b01566b56f56390/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:34:13-43
+	android:name
+		ADDED from [:firebase_auth] /Users/techjockey/elredtask/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:10:18-89
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar
+ADDED from [:firebase_auth] /Users/techjockey/elredtask/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [:firebase_auth] /Users/techjockey/elredtask/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [:firebase_auth] /Users/techjockey/elredtask/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar
+ADDED from [:cloud_firestore] /Users/techjockey/elredtask/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [:cloud_firestore] /Users/techjockey/elredtask/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [:cloud_firestore] /Users/techjockey/elredtask/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-134
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
+ADDED from [:firebase_core] /Users/techjockey/elredtask/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [:firebase_core] /Users/techjockey/elredtask/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [:firebase_core] /Users/techjockey/elredtask/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+uses-permission#android.permission.INTERNET
+ADDED from [:google_sign_in_android] /Users/techjockey/elredtask/build/google_sign_in_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-67
+MERGED from [com.google.firebase:firebase-auth:21.3.0] /Users/techjockey/.gradle/caches/transforms-3/7a4bbdeefe2096494030a71efa16a0e7/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-auth:21.3.0] /Users/techjockey/.gradle/caches/transforms-3/7a4bbdeefe2096494030a71efa16a0e7/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.5.0] /Users/techjockey/.gradle/caches/transforms-3/5e341e2160b9aeeba223e079aa4e71dd/transformed/jetified-firebase-firestore-24.5.0/AndroidManifest.xml:13:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.5.0] /Users/techjockey/.gradle/caches/transforms-3/5e341e2160b9aeeba223e079aa4e71dd/transformed/jetified-firebase-firestore-24.5.0/AndroidManifest.xml:13:5-67
+MERGED from [com.google.firebase:firebase-perf:20.3.1] /Users/techjockey/.gradle/caches/transforms-3/3d8db53872c05fa87c9897799b190fd0/transformed/jetified-firebase-perf-20.3.1/AndroidManifest.xml:10:5-67
+MERGED from [com.google.firebase:firebase-perf:20.3.1] /Users/techjockey/.gradle/caches/transforms-3/3d8db53872c05fa87c9897799b190fd0/transformed/jetified-firebase-perf-20.3.1/AndroidManifest.xml:10:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/techjockey/.gradle/caches/transforms-3/4c014d03a521c2afe312944516464e12/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/techjockey/.gradle/caches/transforms-3/4c014d03a521c2afe312944516464e12/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-config:21.3.0] /Users/techjockey/.gradle/caches/transforms-3/5c2045dc725a9c697f80749e4d50bef1/transformed/jetified-firebase-config-21.3.0/AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-config:21.3.0] /Users/techjockey/.gradle/caches/transforms-3/5c2045dc725a9c697f80749e4d50bef1/transformed/jetified-firebase-config-21.3.0/AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-installations:17.1.3] /Users/techjockey/.gradle/caches/transforms-3/b4ea3e16fc39f98e8c0927da278f9a78/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:10:5-67
+MERGED from [com.google.firebase:firebase-installations:17.1.3] /Users/techjockey/.gradle/caches/transforms-3/b4ea3e16fc39f98e8c0927da278f9a78/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from [:google_sign_in_android] /Users/techjockey/elredtask/build/google_sign_in_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-auth:21.3.0] /Users/techjockey/.gradle/caches/transforms-3/7a4bbdeefe2096494030a71efa16a0e7/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-firestore:24.5.0] /Users/techjockey/.gradle/caches/transforms-3/5e341e2160b9aeeba223e079aa4e71dd/transformed/jetified-firebase-firestore-24.5.0/AndroidManifest.xml:12:5-79
+MERGED from [com.google.firebase:firebase-firestore:24.5.0] /Users/techjockey/.gradle/caches/transforms-3/5e341e2160b9aeeba223e079aa4e71dd/transformed/jetified-firebase-firestore-24.5.0/AndroidManifest.xml:12:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/techjockey/.gradle/caches/transforms-3/4c014d03a521c2afe312944516464e12/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/techjockey/.gradle/caches/transforms-3/4c014d03a521c2afe312944516464e12/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/techjockey/.gradle/caches/transforms-3/5328b838e85d4003c5b3b6d91bea51d9/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/techjockey/.gradle/caches/transforms-3/5328b838e85d4003c5b3b6d91bea51d9/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-config:21.3.0] /Users/techjockey/.gradle/caches/transforms-3/5c2045dc725a9c697f80749e4d50bef1/transformed/jetified-firebase-config-21.3.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-config:21.3.0] /Users/techjockey/.gradle/caches/transforms-3/5c2045dc725a9c697f80749e4d50bef1/transformed/jetified-firebase-config-21.3.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-installations:17.1.3] /Users/techjockey/.gradle/caches/transforms-3/b4ea3e16fc39f98e8c0927da278f9a78/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:9:5-79
+MERGED from [com.google.firebase:firebase-installations:17.1.3] /Users/techjockey/.gradle/caches/transforms-3/b4ea3e16fc39f98e8c0927da278f9a78/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:9:5-79
+MERGED from [io.grpc:grpc-android:1.52.1] /Users/techjockey/.gradle/caches/transforms-3/c955631cac91425589a4fe4c7a78e9bb/transformed/jetified-grpc-android-1.52.1/AndroidManifest.xml:9:5-79
+MERGED from [io.grpc:grpc-android:1.52.1] /Users/techjockey/.gradle/caches/transforms-3/c955631cac91425589a4fe4c7a78e9bb/transformed/jetified-grpc-android-1.52.1/AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.3.0] /Users/techjockey/.gradle/caches/transforms-3/7a4bbdeefe2096494030a71efa16a0e7/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:26:22-76
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:21.3.0] /Users/techjockey/.gradle/caches/transforms-3/7a4bbdeefe2096494030a71efa16a0e7/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:29:9-46:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:21.3.0] /Users/techjockey/.gradle/caches/transforms-3/7a4bbdeefe2096494030a71efa16a0e7/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:31:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:21.3.0] /Users/techjockey/.gradle/caches/transforms-3/7a4bbdeefe2096494030a71efa16a0e7/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:33:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.3.0] /Users/techjockey/.gradle/caches/transforms-3/7a4bbdeefe2096494030a71efa16a0e7/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:32:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:21.3.0] /Users/techjockey/.gradle/caches/transforms-3/7a4bbdeefe2096494030a71efa16a0e7/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:34:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.3.0] /Users/techjockey/.gradle/caches/transforms-3/7a4bbdeefe2096494030a71efa16a0e7/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:30:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:21.3.0] /Users/techjockey/.gradle/caches/transforms-3/7a4bbdeefe2096494030a71efa16a0e7/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:35:13-45:29
+action#android.intent.action.VIEW
+ADDED from [com.google.firebase:firebase-auth:21.3.0] /Users/techjockey/.gradle/caches/transforms-3/7a4bbdeefe2096494030a71efa16a0e7/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.3.0] /Users/techjockey/.gradle/caches/transforms-3/7a4bbdeefe2096494030a71efa16a0e7/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:36:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:21.3.0] /Users/techjockey/.gradle/caches/transforms-3/7a4bbdeefe2096494030a71efa16a0e7/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:38:17-76
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.3.0] /Users/techjockey/.gradle/caches/transforms-3/7a4bbdeefe2096494030a71efa16a0e7/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:38:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.firebase:firebase-auth:21.3.0] /Users/techjockey/.gradle/caches/transforms-3/7a4bbdeefe2096494030a71efa16a0e7/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:39:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.3.0] /Users/techjockey/.gradle/caches/transforms-3/7a4bbdeefe2096494030a71efa16a0e7/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:39:27-75
+data
+ADDED from [com.google.firebase:firebase-auth:21.3.0] /Users/techjockey/.gradle/caches/transforms-3/7a4bbdeefe2096494030a71efa16a0e7/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:41:17-44:51
+	android:path
+		ADDED from [com.google.firebase:firebase-auth:21.3.0] /Users/techjockey/.gradle/caches/transforms-3/7a4bbdeefe2096494030a71efa16a0e7/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:43:21-37
+	android:host
+		ADDED from [com.google.firebase:firebase-auth:21.3.0] /Users/techjockey/.gradle/caches/transforms-3/7a4bbdeefe2096494030a71efa16a0e7/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:42:21-49
+	android:scheme
+		ADDED from [com.google.firebase:firebase-auth:21.3.0] /Users/techjockey/.gradle/caches/transforms-3/7a4bbdeefe2096494030a71efa16a0e7/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:44:21-48
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:21.3.0] /Users/techjockey/.gradle/caches/transforms-3/7a4bbdeefe2096494030a71efa16a0e7/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:47:9-64:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:21.3.0] /Users/techjockey/.gradle/caches/transforms-3/7a4bbdeefe2096494030a71efa16a0e7/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:49:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:21.3.0] /Users/techjockey/.gradle/caches/transforms-3/7a4bbdeefe2096494030a71efa16a0e7/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:51:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.3.0] /Users/techjockey/.gradle/caches/transforms-3/7a4bbdeefe2096494030a71efa16a0e7/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:50:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:21.3.0] /Users/techjockey/.gradle/caches/transforms-3/7a4bbdeefe2096494030a71efa16a0e7/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:52:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.3.0] /Users/techjockey/.gradle/caches/transforms-3/7a4bbdeefe2096494030a71efa16a0e7/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:48:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:21.3.0] /Users/techjockey/.gradle/caches/transforms-3/7a4bbdeefe2096494030a71efa16a0e7/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:53:13-63:29
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:21.3.0] /Users/techjockey/.gradle/caches/transforms-3/7a4bbdeefe2096494030a71efa16a0e7/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:69:13-71:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:21.3.0] /Users/techjockey/.gradle/caches/transforms-3/7a4bbdeefe2096494030a71efa16a0e7/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:71:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.3.0] /Users/techjockey/.gradle/caches/transforms-3/7a4bbdeefe2096494030a71efa16a0e7/transformed/jetified-firebase-auth-21.3.0/AndroidManifest.xml:70:17-109
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0-beta04] /Users/techjockey/.gradle/caches/transforms-3/9852a3d7595c62aaa53e25a017cda8f6/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/techjockey/.gradle/caches/transforms-3/9852a3d7595c62aaa53e25a017cda8f6/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/techjockey/.gradle/caches/transforms-3/9852a3d7595c62aaa53e25a017cda8f6/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0-beta04] /Users/techjockey/.gradle/caches/transforms-3/9852a3d7595c62aaa53e25a017cda8f6/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/techjockey/.gradle/caches/transforms-3/9852a3d7595c62aaa53e25a017cda8f6/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/techjockey/.gradle/caches/transforms-3/9852a3d7595c62aaa53e25a017cda8f6/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:20.5.0] /Users/techjockey/.gradle/caches/transforms-3/6ec2455131b87f1e5da8f8ceb6168071/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:20.5.0] /Users/techjockey/.gradle/caches/transforms-3/6ec2455131b87f1e5da8f8ceb6168071/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.5.0] /Users/techjockey/.gradle/caches/transforms-3/6ec2455131b87f1e5da8f8ceb6168071/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:20.5.0] /Users/techjockey/.gradle/caches/transforms-3/6ec2455131b87f1e5da8f8ceb6168071/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.5.0] /Users/techjockey/.gradle/caches/transforms-3/6ec2455131b87f1e5da8f8ceb6168071/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:20.5.0] /Users/techjockey/.gradle/caches/transforms-3/6ec2455131b87f1e5da8f8ceb6168071/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.5.0] /Users/techjockey/.gradle/caches/transforms-3/6ec2455131b87f1e5da8f8ceb6168071/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:20.5.0] /Users/techjockey/.gradle/caches/transforms-3/6ec2455131b87f1e5da8f8ceb6168071/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:20.5.0] /Users/techjockey/.gradle/caches/transforms-3/6ec2455131b87f1e5da8f8ceb6168071/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.5.0] /Users/techjockey/.gradle/caches/transforms-3/6ec2455131b87f1e5da8f8ceb6168071/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:34:13-89
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:24.5.0] /Users/techjockey/.gradle/caches/transforms-3/5e341e2160b9aeeba223e079aa4e71dd/transformed/jetified-firebase-firestore-24.5.0/AndroidManifest.xml:19:13-21:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:24.5.0] /Users/techjockey/.gradle/caches/transforms-3/5e341e2160b9aeeba223e079aa4e71dd/transformed/jetified-firebase-firestore-24.5.0/AndroidManifest.xml:21:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:24.5.0] /Users/techjockey/.gradle/caches/transforms-3/5e341e2160b9aeeba223e079aa4e71dd/transformed/jetified-firebase-firestore-24.5.0/AndroidManifest.xml:20:17-111
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/techjockey/.gradle/caches/transforms-3/68af408add69f392d6f8c4f6a81b1bbf/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/techjockey/.gradle/caches/transforms-3/68af408add69f392d6f8c4f6a81b1bbf/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/techjockey/.gradle/caches/transforms-3/68af408add69f392d6f8c4f6a81b1bbf/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/techjockey/.gradle/caches/transforms-3/68af408add69f392d6f8c4f6a81b1bbf/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+meta-data#com.google.firebase.components:com.google.firebase.perf.FirebasePerfRegistrar
+ADDED from [com.google.firebase:firebase-perf:20.3.1] /Users/techjockey/.gradle/caches/transforms-3/3d8db53872c05fa87c9897799b190fd0/transformed/jetified-firebase-perf-20.3.1/AndroidManifest.xml:16:13-18:85
+	android:value
+		ADDED from [com.google.firebase:firebase-perf:20.3.1] /Users/techjockey/.gradle/caches/transforms-3/3d8db53872c05fa87c9897799b190fd0/transformed/jetified-firebase-perf-20.3.1/AndroidManifest.xml:18:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-perf:20.3.1] /Users/techjockey/.gradle/caches/transforms-3/3d8db53872c05fa87c9897799b190fd0/transformed/jetified-firebase-perf-20.3.1/AndroidManifest.xml:17:17-109
+meta-data#com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar
+ADDED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/techjockey/.gradle/caches/transforms-3/452bda521965f2327a371a88e28abec4/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:27:13-29:85
+	android:value
+		ADDED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/techjockey/.gradle/caches/transforms-3/452bda521965f2327a371a88e28abec4/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:29:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/techjockey/.gradle/caches/transforms-3/452bda521965f2327a371a88e28abec4/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:28:17-115
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/techjockey/.gradle/caches/transforms-3/4c014d03a521c2afe312944516464e12/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/techjockey/.gradle/caches/transforms-3/5328b838e85d4003c5b3b6d91bea51d9/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/techjockey/.gradle/caches/transforms-3/5328b838e85d4003c5b3b6d91bea51d9/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/techjockey/.gradle/caches/transforms-3/4c014d03a521c2afe312944516464e12/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/techjockey/.gradle/caches/transforms-3/4c014d03a521c2afe312944516464e12/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/techjockey/.gradle/caches/transforms-3/4c014d03a521c2afe312944516464e12/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/techjockey/.gradle/caches/transforms-3/4c014d03a521c2afe312944516464e12/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/techjockey/.gradle/caches/transforms-3/4c014d03a521c2afe312944516464e12/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/techjockey/.gradle/caches/transforms-3/5328b838e85d4003c5b3b6d91bea51d9/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/techjockey/.gradle/caches/transforms-3/5328b838e85d4003c5b3b6d91bea51d9/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/techjockey/.gradle/caches/transforms-3/5328b838e85d4003c5b3b6d91bea51d9/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/techjockey/.gradle/caches/transforms-3/5328b838e85d4003c5b3b6d91bea51d9/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/techjockey/.gradle/caches/transforms-3/5328b838e85d4003c5b3b6d91bea51d9/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/techjockey/.gradle/caches/transforms-3/5328b838e85d4003c5b3b6d91bea51d9/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/techjockey/.gradle/caches/transforms-3/5328b838e85d4003c5b3b6d91bea51d9/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+meta-data#com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar
+ADDED from [com.google.firebase:firebase-config:21.3.0] /Users/techjockey/.gradle/caches/transforms-3/5c2045dc725a9c697f80749e4d50bef1/transformed/jetified-firebase-config-21.3.0/AndroidManifest.xml:31:13-33:85
+	android:value
+		ADDED from [com.google.firebase:firebase-config:21.3.0] /Users/techjockey/.gradle/caches/transforms-3/5c2045dc725a9c697f80749e4d50bef1/transformed/jetified-firebase-config-21.3.0/AndroidManifest.xml:33:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-config:21.3.0] /Users/techjockey/.gradle/caches/transforms-3/5c2045dc725a9c697f80749e4d50bef1/transformed/jetified-firebase-config-21.3.0/AndroidManifest.xml:32:17-117
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.1.3] /Users/techjockey/.gradle/caches/transforms-3/b4ea3e16fc39f98e8c0927da278f9a78/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:17:13-19:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.1.3] /Users/techjockey/.gradle/caches/transforms-3/b4ea3e16fc39f98e8c0927da278f9a78/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:19:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.1.3] /Users/techjockey/.gradle/caches/transforms-3/b4ea3e16fc39f98e8c0927da278f9a78/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:18:17-127
+meta-data#com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar
+ADDED from [com.google.firebase:firebase-abt:21.1.1] /Users/techjockey/.gradle/caches/transforms-3/f674aecb50a7209555b22c64fd8c25ab/transformed/jetified-firebase-abt-21.1.1/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-abt:21.1.1] /Users/techjockey/.gradle/caches/transforms-3/f674aecb50a7209555b22c64fd8c25ab/transformed/jetified-firebase-abt-21.1.1/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-abt:21.1.1] /Users/techjockey/.gradle/caches/transforms-3/f674aecb50a7209555b22c64fd8c25ab/transformed/jetified-firebase-abt-21.1.1/AndroidManifest.xml:13:17-109
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.3.2] /Users/techjockey/.gradle/caches/transforms-3/ce0e56bffdc79f1c0b01566b56f56390/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:25:9-30:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.3.2] /Users/techjockey/.gradle/caches/transforms-3/ce0e56bffdc79f1c0b01566b56f56390/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:27:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.3.2] /Users/techjockey/.gradle/caches/transforms-3/ce0e56bffdc79f1c0b01566b56f56390/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:29:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.3.2] /Users/techjockey/.gradle/caches/transforms-3/ce0e56bffdc79f1c0b01566b56f56390/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:28:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.3.2] /Users/techjockey/.gradle/caches/transforms-3/ce0e56bffdc79f1c0b01566b56f56390/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.3.2] /Users/techjockey/.gradle/caches/transforms-3/ce0e56bffdc79f1c0b01566b56f56390/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:26:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.2.0] /Users/techjockey/.gradle/caches/transforms-3/338f44e1343992a5773bef940ff27314/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.2.0] /Users/techjockey/.gradle/caches/transforms-3/338f44e1343992a5773bef940ff27314/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.2.0] /Users/techjockey/.gradle/caches/transforms-3/338f44e1343992a5773bef940ff27314/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:22:13-58
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.3.1] /Users/techjockey/.gradle/caches/transforms-3/1800e172fa2872b3790c6dbfee1f4575/transformed/jetified-lifecycle-process-2.3.1/AndroidManifest.xml:25:9-29:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.3.1] /Users/techjockey/.gradle/caches/transforms-3/1800e172fa2872b3790c6dbfee1f4575/transformed/jetified-lifecycle-process-2.3.1/AndroidManifest.xml:27:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.3.1] /Users/techjockey/.gradle/caches/transforms-3/1800e172fa2872b3790c6dbfee1f4575/transformed/jetified-lifecycle-process-2.3.1/AndroidManifest.xml:29:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.3.1] /Users/techjockey/.gradle/caches/transforms-3/1800e172fa2872b3790c6dbfee1f4575/transformed/jetified-lifecycle-process-2.3.1/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.3.1] /Users/techjockey/.gradle/caches/transforms-3/1800e172fa2872b3790c6dbfee1f4575/transformed/jetified-lifecycle-process-2.3.1/AndroidManifest.xml:26:13-79
